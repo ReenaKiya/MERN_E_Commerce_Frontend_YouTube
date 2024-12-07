@@ -6,8 +6,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 const AppState = (props) => {
   // const url = "http://localhost:1000/api";
-
-  const url = "https://mern-e-commerce-api-youtube-3opa.onrender.com/api";
+  const url = "https://mern-e-commerce-api-youtube-orzb.onrender.com/api";
 
   const [products, setProducts] = useState([]);
   const [token, setToken] = useState([]);
