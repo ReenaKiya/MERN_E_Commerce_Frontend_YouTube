@@ -45,7 +45,7 @@ const ProductDetail = () => {
         </div>
         <div className="right">
           <h1>{product?.title}</h1>
-          <p>{product?.description}</p>
+          <p className="py-3 px-5">{product?.description}</p>
           <h1>
             {product?.price} {"₹"}
           </h1>
